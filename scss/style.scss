@@ -1,0 +1,50 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: lightblue;
+}
+
+.container {
+   width: 1110px;
+   margin: 15px auto;
+}
+
+.main_title {
+   text-align: center;
+   background-color: blue;
+   color: #fff;
+   font-size: 48px;
+   margin: 20px auto 48px;
+}
+
+.block_img {
+   display: flex;
+   justify-content: space-around;
+}
+
+.sub_title {
+   text-align: center;
+   background-color: blue;
+   color: #fff;
+   margin-top: 80px;
+   font-size: 36px;
+}
+
+.descreption_text {
+   font-size: 18px;
+   text-align: justify;
+}
+
+.skill_item {
+   font-size: 16px;
+}
